@@ -37,5 +37,9 @@ class Message(db.Model):
 def home():
     return "<h1>Čia mano naujas puslapis</h1>"
 
+@app.route("/naujas")
+def home2():
+    return "<h1>Čia mano naujas puslapis ANTRAS</h1>"
+
 if __name__ == "__main__":
     app.run(debug=True)
