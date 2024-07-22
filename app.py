@@ -35,7 +35,7 @@ class Message(db.Model):
 
 @app.route("/")
 def home():
-    return "<h1>Čia mano naujas puslapis</h1>"
+    return "<h1>Čia mano naujas puslapis su naujausiu tekstu</h1>"
 
 @app.route("/naujas")
 def home2():
